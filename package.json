@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://git.ouroath.com/ysb/ysb-protractor-elements"
+    "url": "https://github.com/ysb/ysb-protractor-elements"
   },
   "keywords": [
     "protractor"
@@ -16,9 +16,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://git.ouroath.com/ysb/ysb-protractor-elements/issues"
+    "url": "https://github.com/ysb/ysb-protractor-elements/issues"
   },
-  "homepage": "https://git.ouroath.com/ysb/ysb-protractor-elements",
+  "homepage": "https://github.com/ysb/ysb-protractor-elements",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
