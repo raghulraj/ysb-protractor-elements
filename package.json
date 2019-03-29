@@ -1,0 +1,26 @@
+{
+  "name": "ysb-protractor-elements",
+  "version": "0.0.1",
+  "description": "Utility to define protractor element strategies",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.ouroath.com/ysb/ysb-protractor-elements"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": {
+    "name": "Raghul Raj V",
+    "email": "raghulraj@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://git.ouroath.com/ysb/ysb-protractor-elements/issues"
+  },
+  "homepage": "https://git.ouroath.com/ysb/ysb-protractor-elements",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "readmeFilename": "README.md"
+}
