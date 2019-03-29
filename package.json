@@ -1,11 +1,11 @@
 {
   "name": "ysb-protractor-elements",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility to define protractor element strategies",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ysb/ysb-protractor-elements"
+    "url": "https://github.com/raghulraj/ysb-protractor-elements"
   },
   "keywords": [
     "protractor"
@@ -16,9 +16,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ysb/ysb-protractor-elements/issues"
+    "url": "https://github.com/raghulraj/ysb-protractor-elements/issues"
   },
-  "homepage": "https://github.com/ysb/ysb-protractor-elements",
+  "homepage": "https://github.com/raghulraj/ysb-protractor-elements",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
