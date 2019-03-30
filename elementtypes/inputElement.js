@@ -12,6 +12,12 @@ class Input extends BaseElement {
         let _this=this;
         await _this.protractorElement.isEnabled();
     }
+    
+    async getText(){
+        let _this=this;
+        console.log(`Reading text from Input "${_this.elementName}"`);
+        return _this.element.getText();
+    }
 }
 
 module.exports = Input;
