@@ -1,6 +1,6 @@
 {
   "name": "ysb-protractor-elements",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Utility to define protractor element strategies",
   "main": "index.js",
   "repository": {
