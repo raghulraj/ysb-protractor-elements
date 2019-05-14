@@ -18,6 +18,11 @@ class Input extends BaseElement {
         console.log(`Reading text from Input "${_this.elementName}"`);
         return _this.element.getText();
     }
+    async getValue(){
+        let _this=this;
+        console.log(`Reading value attribute from Input "${_this.elementName}"`);
+        return await _this.protractorElement.getAttribute('value');
+    }
 }
 
 module.exports = Input;
