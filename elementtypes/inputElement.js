@@ -2,6 +2,15 @@ let BaseElement = require('./baseElement');
 
 class Input extends BaseElement {
     
+    async setiPhoneText(locator,text){
+        await browser.executeScript(`
+        var nativeInputValueSetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set;
+        nativeInputValueSetter.call(${locator}, "${text}");
+        var event = new Event('input', { bubbles: true});
+        ${locator}.dispatchEvent(event);
+        `,locator,text)
+    }
+    
     async setText(text){
         let _this=this;
         console.log(`Sending text "${text}" to Input "${_this.elementName}"`);
